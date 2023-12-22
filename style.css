@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'govia';
+    src: url(fonts/GoviaSans-Bold-DEMO.otf);
+}
+
+@font-face {
+    font-family: 'ostent' ;
+    src: url(fonts/Ostent-Heavy.otf);
+}
+
+@font-face {
+    font-family: 'foro';
+    src: url(fonts/Foro\ Sans\ W01\ Black.ttf);
+}
+
+body{
+    background-color: #D6E0FF;
+}
+
+.father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    text-align: center;
+    border-radius: 25px;
+    width: 480px;
+    height: 690px;
+    background-color: white;
+}
+
+.img1{
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+}
+
+h1{
+    color: #2F374D;
+    font-family: 'govia';
+    padding: 20px 0px 20px 0px;
+}
+
+.pu{
+    color: #9A9DA9;
+    font-size: 20px;
+    font-family: 'ostent';
+    padding: 20px 0px 20px 0px;
+}
+
+.pd{
+    color: #9A9DA9;
+    font-size: 20px;
+    font-family: 'ostent';
+    padding: 20px 0px 20px 0px;
+    display: none;
+}
+
+.father2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #acadaf2d;
+    text-align: center;
+    width: 340px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.pt{
+    font-family: 'ostent';
+    color: #9A9DA9;
+    padding: 0px 0px 0px 10px;
+}
+
+.pq{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #5242C3;
+    padding: 0px 10px 0px 140px;
+}
+
+.father3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1{
+    font-family: 'foro';
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    width: 350px;
+    margin: 17px;
+    padding: 15px;
+    color: white;
+    background-color: #382AE3;
+}  
+
+span{
+    color: #374256;
+}
+
+.b2{
+    font-size: 14px;
+    color: #757b88;
+    border: none;
+    background-color: white;
+    font-family: 'foro';
+}
+
+
+

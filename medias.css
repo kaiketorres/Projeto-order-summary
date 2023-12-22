@@ -1,0 +1,14 @@
+@media (max-width:694px)  {
+
+    .pu{
+        display: none;
+    }
+    .pd{
+        display: block;
+    }
+
+    .back{
+        width: 100%;
+    }
+
+}
